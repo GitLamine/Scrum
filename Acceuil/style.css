@@ -1,0 +1,40 @@
+body
+{
+    margin:0;
+    padding: 0;
+    height: 100%
+}
+.accueil{
+
+    background-image: url("/image/taaaaajine.jpg");
+    /* height: 10cm; */
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 300px 2px;
+    background-position-x: -3;
+}
+
+/*
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+}
+
+ .nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav{
+    font-family: emoji;
+    border: 2px solid red;
+    width: 20cm;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+/*

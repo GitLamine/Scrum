@@ -1,0 +1,368 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Trirong, serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-image: url("./Images/taaaaajinee.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.accueil1 {
+    width: 100%;
+    height: 100%;
+    min-width: fit-content;
+    background-image: url("./Images/taaaaajinee.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navbar {
+    z-index: 100;
+    width: 100%;
+    height: 8%;
+    display: flex;
+    min-width: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.53);
+    position: absolute;
+}
+
+.nav a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    margin-right: 68px;
+    padding-bottom: 6px;
+}
+
+.nav a:hover {
+    border-bottom: 3px solid brown;
+}
+
+.nav {
+    font-size: 22px;
+    font-family: emoji;
+    width: 74%;
+    min-width: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-family: CocoBikeR;
+    font-size: 35px;
+    width: 20%;
+    margin-left: 89px;
+}
+
+.iconeacc {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.iconeacc:hover {
+    background-color: rgba(91, 91, 91, 0.576);
+}
+
+#slogan p {
+    color: rgb(3, 3, 3);
+    font-size: 40px;
+    font-family: "old standard";
+    margin-bottom: 25px;
+    margin-right: 285px;
+}
+
+#slogan::after {
+    background-color: rgb(8, 8, 8);
+    content: "O";
+    text-align: center;
+    color: black;
+    display: block;
+    line-height: 2px;
+    margin: 25px 348px 25px auto;
+    max-width: 250px;
+    width: 100%;
+}
+
+.nour {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.yakine {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.recette {
+    text-align: center;
+    min-width: fit-content;
+    font-size: 26px;
+    width: 244px;
+    height: 62px;
+    border-top-right-radius: 68px;
+    border-bottom-left-radius: 68px;
+    background-color: brown;
+    margin-right: 40px;
+    margin-left: 240px;
+}
+
+.recette:hover {
+    background-color: rgb(186, 5, 5);
+}
+
+.recette a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 63px;
+}
+
+.accueil2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-width: fit-content;
+    background-image: url("./Images/blur.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    display: none;
+    flex-direction: column;
+}
+
+.detailsrecette {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: fit-content;
+}
+
+.tajineberbere {
+    font-size: 38px;
+    color: rgb(207, 199, 199);
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.29);
+    min-width: fit-content;
+    margin-top: 4%;
+}
+
+.savoirplus h2 {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.savoirplus {
+    text-decoration: underline;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+.savoirplus:hover {
+    color: brown;
+}
+
+.ppp {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+img {
+    width: 30%;
+    height: 60%;
+    margin-top: 4%;
+}
+
+footer {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+
+.logofooter {
+    color: white;
+    font-family: CocoBikeR;
+    font-size: 35px;
+}
+
+.reseaux {
+    width: 40%;
+    height: 95px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    padding-top: 90px;
+    justify-content: space-evenly;
+}
+
+.contact p {
+    color: grey;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    font-size: 17px;
+    text-align: center;
+}
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.modalrecette {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.accueil2 {
+    animation-name: animateleft;
+    animation-duration: 0.8s;
+}
+
+@-webkit-keyframes animateleft {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+@keyframes animateleft {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+.cart {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    right: 32px;
+    top: 14px;
+    background-color: brown;
+    display: none;
+}
+
+#cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 3px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cartcontainer {
+    width: 340px;
+    height: 546px;
+    position: absolute;
+    right: 2px;
+    display: none;
+}
+
+.cartbox {
+    width: 280px;
+    position: absolute;
+    background-color: white;
+    right: 45px;
+    top: 72px;
+    z-index: 200;
+}
+
+.cartbare {
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid rgb(205, 200, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#pasdereservation {
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    color: rgb(16, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+#pasdereservation p {
+    padding-left: 20px;
+}

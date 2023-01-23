@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier Jasmin</title>
+    <link rel="stylesheet" href="./Pages/mostyle.css">
+    <link rel="stylesheet" href="./Pages/formstyle.css">
+    <link href="https://fonts.cdnfonts.com/css/cocobiker" rel="stylesheet">
+    <script src="https://use.fontawesome.com/036c5f0d8e.js" defer></script>
+    <link href="https://fonts.cdnfonts.com/css/cocobiker" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
+</head>
+
+<body>
+
+
+    <div class="navbar">
+        <div class="logo">
+            <p class="jasmin"> Atelier Jasmin </p>
+        </div>
+        <div class="nav">
+
+            <a href="">Accueil</a>
+            <a href="./Pages/responsive.html">Formations</a>
+            <a href="./Pages/communaute.html">Communauté</a>
+            <div class="iconeacc"> <i id="btn" class="fa fa-user " aria-hidden="true" style="color:white;"></i>
+            </div>
+            <div id="panier" class="iconeacc"><i class="fa fa-shopping-cart " aria-hidden="true"
+                    style="color:white;"></i>
+            </div>
+            <div id=shop class="cart">
+                <p id="cart"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="cartcontainer" class="cartcontainer">
+        <div id="cartbox" class="cartbox">
+            <div class="cartbare">
+                <p>Panier</p>
+            </div>
+            <div id="pasdereservation">
+                <p>Il n'y a pas de commande dans votre panier</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="accueil1" class="accueil1">
+
+
+
+        <div class="nour">
+
+
+            <div class="yakine">
+                <div id="slogan">
+                    <p>Apprendre en Dégustant</p>
+
+
+                </div>
+
+                <div class="recette">
+                    <a id="boutonrecette" style="cursor: pointer;"> Recette Du Jour</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="accueil2" class="accueil2">
+
+        <div class="detailsrecette">
+            <img src="./Images/tajine recette .jpg" alt="">
+
+            <div class="tajineberbere">
+
+                <div class="contenants">
+                    <h2>Tajine Berbère</h2>
+                    <p class="ppp"> Pas de hors piste ici. Préparez ce<br> délicieux Tajine grâce à la
+                        recette<br>
+                        confiée par Yasmine. </p>
+                    <a href="./responsive.html">
+                        <p class="savoirplus"> En savoir plus </p>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+    <div id="modal" class="modal">
+
+        <div id="main" class="main">
+            <div class="bare">
+                <a class=" logoo" href="">Atelier Jasamin</a>
+                <span id="close" class="close">&times;</span>
+
+            </div>
+
+
+            <form id="signin">
+                <p>
+                    <label for="email"> Adresse Email </label><br>
+                    <input type="email" name="email" class="email" placeholder=" Votre adresse Email"
+                        required="required" />
+
+                </p>
+
+                <p>
+                    <label for="password"> Mot de passe </label><br>
+                    <input type="password" name="email" class="email" placeholder=" Votre mot de passe "
+                        required="required" />
+
+                </p>
+                <div class="seconnecter">
+                    <button id="connexion">Se connecter </button>
+                    <a id="mdp" href=""> Mot de passe oublié</a>
+                </div>
+                <div class="nouveau">
+                    <div class="before"></div>
+                    <h5>Nouveau chez Atelier Jasmin?</h5>
+                    <div class="before"></div>
+
+                </div>
+                <button id="create"> Créer un compte </button>
+
+
+
+            </form>
+
+
+
+
+            <form id="signup">
+
+                <div class="name">
+                    <div class="first">
+
+                        <label for="firstName"> Prénom </label><br>
+                        <input type="text" name="firstName" class="firstname" placeholder=" Prénom " required="required"
+                            maxlength="20" />
+                    </div>
+                    <div class="first">
+                        <label for="firstName"> Nom </label><br>
+                        <input type="text" name="firstName" class="firstname" placeholder=" Nom" required="required"
+                            maxlength="20" />
+                    </div>
+                </div>
+
+                <p>
+                    <label for="email"> Email </label><br>
+                    <input type="email" name="email" class="email" placeholder=" Email" required="required" />
+
+                </p>
+
+                <p>
+                    <label for="password"> Mot de passe </label><br>
+                    <input id="password" type="password" name="email" class="email" placeholder=" Votre mot de passe "
+                        required="required" />
+
+                </p>
+                <p>
+                    <label for="password"> Confirmation du mot de passe </label><br>
+                    <input id="confirm" type="password" name="email" class="email"
+                        placeholder=" Confirmez votre mot de passe " required="required" />
+
+                </p>
+
+
+                <p id="message"></p>
+
+                <div class="mybtn">
+
+                    <button id="mybutton" class="mybutton"> Créer un compte </button>
+                </div>
+
+
+
+            </form>
+
+        </div>
+    </div>
+
+    <div id="modalsuccess" class="modalsuccess">
+        <div class="div">
+
+            <div class="circle">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                        d="M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+                </svg>
+            </div>
+            <div id="success" class="success">
+                <h1>Success</h1>
+
+                <p class="para"> Check your email for a booking confirmation.<br> We'll see you soon!</p>
+
+                <button class=okboutton id="okbutton"> OK</button>
+
+            </div>
+
+        </div>
+    </div>
+<footer>
+
+
+
+    <div class="logofooter">
+        <p> Atelier Jasmin </p>
+    </div>
+    <div class="reseaux">
+        <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true" style="color:rgb(126, 123, 123) ;"></i>
+        </a>
+        <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true" style="color:rgb(126, 123, 123);"></i>
+        </a>
+        <a href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true" style="color:rgb(126, 123, 123) ;"></i>
+        </a>
+        <a href=""><i class="fa fa-youtube-play fa-2x" aria-hidden="true" style="color:rgb(126, 123, 123) ;"></i>
+        </a>
+    </div>
+    <div class="contact">
+        <div class="adresse">
+            <i class="fa fa-phone fa-2x" aria-hidden="true" style="color: white;"></i>
+            <p>+33 (0) 3 26 84 64 64 </p>
+
+        </div>
+        <div class="adresse">
+            <i class="fa fa-map-marker fa-2x" aria-hidden="true" style="color:white ;"></i>
+            <p>40, Rue Abbé de l'Epée, Salle de Proximité <br>
+                13090 Aix-en-Provence.</p>
+
+        </div>
+        <div class="adresse">
+            <i class="fa fa-envelope fa-2x" aria-hidden="true" style="color:white"></i>
+            <a href="">
+                <p>infos@atelierjasmin.com</p>
+            </a>
+
+        </div>
+    </div>
+
+</footer>
+
+    <script src="./script.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
